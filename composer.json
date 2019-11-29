@@ -1,5 +1,5 @@
 {
-    "name": "rennokki/guardian",
+    "name": "conceptangle/guardian",
     "description": "Eloquent Guardian is a simple permissions system for your users. While there are many other packages for permissions, this one solves everything in the most eloquent way.",
     "keywords": [
         "eloquent",
@@ -15,7 +15,7 @@
         "cant",
         "model"
     ],
-    "homepage": "https://github.com/rennokki/guardian",
+    "homepage": "https://github.com/conceptangle/guardian",
     "license": "MIT",
     "authors": [
         {
