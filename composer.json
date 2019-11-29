@@ -1,0 +1,60 @@
+{
+    "name": "rennokki/guardian",
+    "description": "Eloquent Guardian is a simple permissions system for your users. While there are many other packages for permissions, this one solves everything in the most eloquent way.",
+    "keywords": [
+        "eloquent",
+        "laravel",
+        "permission",
+        "permissions",
+        "ability",
+        "allow",
+        "disallow",
+        "prohibit",
+        "can",
+        "cannot",
+        "cant",
+        "model"
+    ],
+    "homepage": "https://github.com/rennokki/guardian",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Renoki",
+            "email": "rennokki@gmail.com",
+            "homepage": "https://twitter.com/rennokki",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2|^7.0",
+        "orchestra/testbench": "~3.5.0|~3.6.0",
+        "orchestra/database": "~3.5.0|~3.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rennokki\\Guardian\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rennokki\\Guardian\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rennokki\\Guardian\\GuardianServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
